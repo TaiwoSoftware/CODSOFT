@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+form {
+    border: 4px solid #fff;
+    max-width: 300px;
+    padding: .5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border-radius:1rem ;
+}
+
+input {
+    background: rgb(74, 74, 74);
+    width: 100%;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 1rem 2rem;
+    margin-bottom: .4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: .4rem;
+    position: relative;
+    display: flex;
+}
+.input p{
+    color: white;
+    font-family: sans-serif;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+.numberCalculation{
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 6.5rem;
+    left: 32rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.numberTwo{
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 6.5rem;
+    left: 34rem;
+    gap: 2rem;
+    display: flex;
+}
+
+
+form .firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+form .firstRow button, .secondRow button, .thirdRow button{
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.fifthRow button {
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: .5rem;
+}
+
+.fourthRow button {
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.plus {
+    color: #000;
+    font-size: 1rem;
+    
+}
+.clear{
+    background-color: red;
+    color: #fff;
+}
+
+.equal {
+    width: 100%;
+    background: green;
+    padding: .5rem;
+    border: none;
+    margin-top: .5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+}

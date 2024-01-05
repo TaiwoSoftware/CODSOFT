@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form>
+      <div class="calculator">
+        <input type="text" id="result" readonly />
+        <div class="buttons">
+          <div class="firstRow">
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendNumber(3)">3</button>
+          </div>
+          <div class="secondRow">
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendNumber(6)">6</button>
+          </div>
+          <div class="thirdRow">
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendNumber(9)">9</button>
+          </div>
+          <div class="fourthRow">
+            <button onclick="appendOperator('+')" class="plus">+</button>
+            <button onclick="appendNumber(0)">0</button>
+            <button onclick="appendOperator('-')" class="minus">-</button>
+          </div>
+          <div class="fifthRow">
+            
+            <button onclick="appendOperator('*')">*</button>
+            <button onclick="appendOperator('/')">/</button>
+            <button onclick="clearInput()" class="clear">C</button>
+          </div>
+          <button onclick="calculate()" class="equal">=</button>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
